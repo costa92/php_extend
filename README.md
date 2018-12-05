@@ -1,3 +1,5 @@
+# php_extend
+php 常用插件封装
 # PHP 插件包文件 
 
 # xhprof
