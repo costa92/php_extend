@@ -38,8 +38,8 @@ class Execute
      */
     public static function loadLib()
     {
-        require 'xhprof_lib/utils/xhprof_lib.php';
-        require 'xhprof_lib/utils/xhprof_runs.php';
+        require_once 'xhprof_lib/utils/xhprof_lib.php';
+        require_once 'xhprof_lib/utils/xhprof_runs.php';
     }
 
     /**
@@ -60,7 +60,6 @@ class Execute
     {
         self::start();
         self::loadLib();
-
         //注册一个函数，当程序执行结束的时候去执行它。
         register_shutdown_function(function () {
             //stop profiler
