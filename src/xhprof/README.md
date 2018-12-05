@@ -25,7 +25,7 @@ Execute::end() 的参数默认是:xhprof_foo
 
 通过商品图片，我们可以到执行方法次数与方法调用的时间，这样就可以优化代码
 
-http://xhprof.costalong.com 是我本地的站点，![可以参考](https://segmentfault.com/a/1190000003509917) 搭建自己的分析站点
+http://xhprof.costalong.com 是我本地的站点，[可以参考](https://segmentfault.com/a/1190000003509917) 搭建自己的分析站点
 
 
 
